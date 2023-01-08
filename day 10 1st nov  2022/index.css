@@ -1,0 +1,26 @@
+.body {
+    /* background-color: aqua; */
+    color:teal;
+}
+
+table,
+tr,
+th,td {
+    border: 0.5px solid black;
+}
+
+#tableHead{
+    background-color: yellow;
+}
+
+#fullname{
+    background-color: blueviolet;
+}
+
+#fname{
+    background-color: red;
+    color: chartreuse;
+    padding: 20px;
+
+
+}
