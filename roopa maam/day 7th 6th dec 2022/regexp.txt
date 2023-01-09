@@ -1,0 +1,112 @@
+Functions
+
+import re
+s="malayalam"
+l=re.findall("a",s)
+print(l)
+
+s="malayalam"
+l=re.findall("la",s)
+print(l)
+
+s="malayalam"
+l=re.findall("q",s)
+print(l)
+
+s="malayalam"
+l=re.search("lay",s)
+print(l)
+
+s="malayalam"
+l=re.search("lay",s)
+print(l.start())
+
+s="malayalam"
+l=re.search("lay",s)
+print(l.span())
+
+s="malayalam"
+l=re.search("lay",s)
+print(l.string)
+
+s="malayalam"
+l=re.split('a',s)
+print(l)
+
+s="Iam studying Python"
+l=re.split(" ",s)
+print(l)
+
+s="Iam studying Python"
+l=re.split(" ",s,1)
+print(l)
+
+s="malayalam"
+l=re.sub("m","M",s)
+print(l)
+
+s="malayalam"
+l=re.sub("m","M",s,1)
+print(l)
+
+Meta Characters
+
+s="Example for Meta Character in Regular Expression"
+l=re.findall("[a]",s)
+print(l)
+
+s="Example for Meta Character in Regular Expression"
+l=re.findall("[ag]",s)
+print(l)
+
+s="Example for Meta Character in Regular Expression"
+l=re.findall("^Exam",s)
+print(l)
+
+s="Example for Meta Character in Regular Expression"
+l=re.findall("ion$",s)
+print(l)
+
+s="Example for Meta Character in Regular Expression"
+l=re.findall("Exam..e",s)
+print(l)
+
+s="Example for Meta Character in Regular Expression"
+l=re.findall("..Exam..e",s)
+print(l)
+
+s="Example for Meta Character in Regular Expression"
+l=re.findall("..r",s)
+print(l)
+
+s="Example for Meta Character in Regular Expression"
+l=re.findall("a*",s)
+print(l)
+
+s="Example for Meta Character in Regular Expression"
+l=re.findall("a+",s)
+print(l)
+
+s1="A friend in need is a friend in deed"
+l=re.findall("ie*",s1)
+print(l)
+
+s1="A friend in need is a friend in deed"
+l=re.findall("ie+",s1)
+print(l)
+
+s1="A friend in need is a friend in deed"
+l=re.findall("e{2}",s1)
+print(l)
+
+s1="123A friend in need is a friend in deed"
+l=re.findall("[123]",s1)
+print(l)
+
+s1="123A friend in need is a friend in deed"
+l=re.findall("[^123]",s1)
+print(l)
+
+s1="123A friend in need is a friend in deed"
+l=re.findall("[0-9][0-9][0-9]",s1)
+print(l)
