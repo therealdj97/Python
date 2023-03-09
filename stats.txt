@@ -1,0 +1,19 @@
+if r 2 = 1
+SSR=SST
+SSE = 0
+
+.	
+If the coefficient of determination is equal to 1, then the correlation coefficient can be either -1 or +1
+If the coefficient of determination is a positive value, then the regression equation could have either a positive or a negative slope
+
+.	
+If the correlation coefficient is a positive value, then the slope of the regression line can not be zero
+
+ spearman correlation coefficient Interval
+ 
+ Karl Pearson’s correlation coefficient Ordinal
+ 
+ 	
+The ratio of the average deviations is called Regression
+
+SSE can never be larger than SST

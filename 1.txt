@@ -1,0 +1,204 @@
+Python 
+All keywords in Python are in capitalized
+For order of precedence, just remember this PEMDAS (similar to BODMAS).
+Explanation: The binary form of 1 is 0001. The expression x<<2 implies we are performing bitwise left shift on x. This shift yields the value: 0100, which is the binary form of the number 4.
+pip Preferred Installer Program
+// is the operator for truncation division. It is called so because it returns only the integer part of the quotient, truncating the decimal part. For example: 20//3 = 6.
+
+l=[1, 0, 2, 0, 'hello', '', []]
+list(filter(bool, l))
+Explanation: The code shown above returns a new list containing only those elements of the list l which do not amount to zero. Hence the output is: [1, 2, ‘hello’].
+
+: The function seed is a function which is present in the random module. The functions sqrt and factorial are a part of the math module. The print function is a built-in function which prints a value directly to the system output.
+
+
+: Each object in Python has a unique id. The id() function returns the object’s id.
+
+ The code shown above shows a general decorator which can work with any number of arguments.
+ 
+ 5. Which of the following is not a core data type in Python programming?
+a) Tuples
+b) Lists
+c) Class
+d) Dictionary
+Explanation: Class is a user-defined data type.
+
+PAckage =A folder of python modules
+
+namespace precedance => Python first searches the local namespace, then the global namespace and finally the built-in namespace
+
+Both str(f) and format(f) call f.__str__(). 
+
+Which one of the following is not a keyword in Python language
+a) pass
+b) eval eval can be used as a variable
+c) assert
+d) nonlocal
+
+
+getopt parses options received from the command line.
+
+{ } creates a dictionary not a set. Only set() creates an empty set.
+
+ Functions are reusable pieces of programs. They allow you to give a name to a block of statements, allowing you to run that block using the specified name anywhere in your program and any number of times.
+ 
+ 
+ Built-in functions and user defined ones. The built-in functions are part of the Python language. Examples are: dir(), len() or abs(). The user defined functions are functions created with the def keyword.
+ 
+ Tuples are represented with round brackets.
+ 
+ Python has a nifty feature called documentation strings, usually referred to by its shorter name docstrings. DocStrings are an important tool that you should make use of since it helps to document the program better and makes it easier to understand
+ 
+The process of pickling in Python includes conversion of a Python object hierarchy into byte stream
+Pickling is the process of serializing a Python object, that is, conversion of a Python object hierarchy into a byte stream. The reverse of this process is known as unpickling.
+
+As Python has no concept of private variables, leading underscores are used to indicate variables that must not be accessed from outside the class.
+
+
+in is a keyword.
+ 
+When both of the operands are integer then python chops out the fraction part and gives you the round off value, to get the accurate answer use floor division. This is floor division. For ex, 5/2 = 2.5 but both of the operands are integer so answer of this expression in python is 2. To get the 2.5 answer, use floor division.
+ 
+Explanation: “Addition and Subtraction” are at the same precedence level. Similarly, “Multiplication and Division” are at the same precedence level. However, Multiplication and Division operators are at a higher precedence level than Addition and Subtraction operators.
+ 
+Int(x) converts the datatype of the variable to integer and is the example of explicit data conversion.
+  
+Python shell throws a NoneType object back.
+Execute help(id) to find out details in python shell.id returns a integer value that is unique
+
+trunc() = floor()
+
+Neither of 0.1, 0.2 and 0.3 can be represented accurately in binary. The round off errors from 0.1 and 0.2 accumulate and hence there is a difference of 5.5511e-17 between (0.1 + 0.2) and 0.3.
+
+ l (or L) stands for long.
+ 
+a) k = 2 + 3j
+b) k = complex(2, 3)
+c) k = 2 + 3l
+d) k = 2 + 3J
+
+nfinity is a special case of floating point numbers. It can be obtained by float(‘inf’).
+
+ What does ~4 evaluate to?
+a) -5
+~x is equivalent to -(x+1)
+
+: ~x is equivalent to -(x+1).
+~~x = – (-(x+1) + 1) = (x+1) – 1 = x
+~~x is equivalent to x
+Extrapolating further ~~~~~~x would be same as x in the final result.
+In the question, x value is given as 5 and “~” is repeated 6 times. So, the correct answer for “~~~~~~5” is 5.
+
+cmp(x, y) returns 1 if x > y, 0 if x == y and -1 if x < y.
+
+
+ The behavior of the round() function is different in Python 2 and Python 3. In Python 2, it rounds off numbers away from 0 when the number to be rounded off is exactly halfway through. round(0.5) is 1 and round(-0.5) is -1 whereas in Python 3, it rounds off numbers towards nearest even number when the number to be rounded off is exactly halfway through. See the below output.
+ 
+ 
+ $ python
+Python 2.7.17 (default, Nov  7 2019, 10:07:09)
+>>> round(0.5)
+1.0
+>>> round(-0.5)
+-1.0
+>>>
+In the above output, you can see that the round() functions on 0.5 and -0.5 are moving away from 0 and hence “round(0.5) – (round(-0.5)) = 1 – (-1) = 2”
+
+Here’s the runtime output for Python version 3.6 interpreter.
+
+$ python3
+Python 3.6.8 (default, Oct  7 2019, 12:59:55)
+>>> round(0.5)
+0
+>>> round(-0.5)
+0
+>>> round(2.5)
+2
+>>> round(3.5)
+4
+>>>
+
+All of the operators shown above have associativity from left to right, except exponentiation operator (**) which has its associativity from right to left.
+
+// is the operator for truncation division. It is called so because it returns only the integer part of the quotient, truncating the decimal part. For example: 20//3 = 6.
+
+Type conversion is nothing but explicit conversion of operands to a specific type. Options 5.3 + 6.3 and 5.0 + 3 are examples of implicit conversion whereas option 4.0 + float(3) is an example of explicit conversion or type conversion.
+
+ The expression int(‘1111’,2) gives the result 15. The expression int(‘1111’, 10) will give the result 1111.
+ 
+The Boolean function returns true if the argument passed to the bool function does not amount to zero. In the first example, the string ‘False’ is passed to the function bool. This does not amount to zero and hence the output is true. In the second function, an empty list is passed to the function bool. Hence the output is false.
+ 
+The line of code shown above can be simplified to state that ‘hello’ should be printed if the argument passed to the Boolean function amounts to zero, else ‘morning’ will be printed.
+
+If the truth method is not defined, the object is considered true. Hence the output of the code shown above is true.
+
+Loops over the keys of the dictionary.
+use .items to iterate key value pairs
+
+Causes a KeyError.
+
+Variable x takes the values 0, 1 and 2. set.add() returns None which is printed.
+
+objects of type float cannot be interpreted as an integer
+
+OverflowError, cannot convert float infinity to integer.
+
+We can loop over a generator object only once
+
+ not in isn’t allowed in for loops.
+ 
+ a) The sum of 2 and 10 is 12
+b) The sum of 10 and a is 14
+c) The sum of 10 and a is c
+d) Error
+View Answer
+
+7. What will be the output of the following Python code snippet?
+
+print('{:,}'.format(1112223334))
+a) 1,112,223,334
+b) 111,222,333,4
+c) 1112223334
+d) Error
+View Answer
+
+Answer: a
+Explanation: A comma is added after every third digit from the right.
+8. What will be the output of the following Python code snippet?
+
+print('{:,}'.format('1112223334'))
+a) 1,112,223,334
+b) 111,222,333,4
+c) 1112223334
+d) Error
+View Answer
+
+Answer: d
+Explanation: An integer is expected.
+9. What will be the output of the following Python code snippet?
+
+print('{:$}'.format(1112223334))
+a) 1,112,223,334
+b) 111,222,333,4
+c) 1112223334
+d) Error
+View Answer
+
+10. What will be the output of the following Python code snippet?
+
+print('{:#}'.format(1112223334))
+a) 1,112,223,334
+b) 111,222,333,4
+c) 1112223334
+d) Error
+View Answer
+
+Answer: c
+Explanation: The number is printed as it is.
+
+
+
+OOPS
+
+The assignment of more than one function to a particular operator is called as operator overloading.
+the three different class methods in Python are static, bounded and unbounded methods.
